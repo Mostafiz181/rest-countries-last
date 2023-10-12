@@ -1,0 +1,21 @@
+.countries-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: goldenrod;
+    text-transform: uppercase;
+}
+
+.countries-count{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+}
+
+.countries-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
